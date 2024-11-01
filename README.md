@@ -1,15 +1,18 @@
 # CSDN-Clean-Print-PDF
 
+**Description**:  
+This repository provides a JavaScript snippet for a cleaner and well-formatted PDF printing experience on CSDN blog pages. It removes unnecessary elements such as ads, sidebars, and comment sections, adjusts page layout, and ensures long lines in code blocks wrap correctly when printed, preventing text cut-off issues in the generated PDF.
+ 
+此仓库提供了一个 JavaScript 代码段，帮助在 CSDN 博客页面上获得更简洁且格式良好的 PDF 打印体验。代码会移除广告、侧边栏和评论区等不必要的元素，调整页面布局，并确保代码块中的长行在打印时正确换行，避免生成的 PDF 中文本被截断的问题。
+
+
+
 使用方法：F12打开检查，选择console控制台，粘贴代码
 <img width="1440" alt="截屏2024-11-01 12 24 21" src="https://github.com/user-attachments/assets/08e39cd8-569d-4120-b9ab-3940a55f3e9d">
 
  <img width="1440" alt="截屏2024-11-01 12 23 23" src="https://github.com/user-attachments/assets/e69b9561-b13d-45b1-95db-30e114d0cc0d">
 
  
-**Description**:  
-This repository provides a JavaScript snippet for a cleaner and well-formatted PDF printing experience on CSDN blog pages. It removes unnecessary elements such as ads, sidebars, and comment sections, adjusts page layout, and ensures long lines in code blocks wrap correctly when printed, preventing text cut-off issues in the generated PDF.
- 
-此仓库提供了一个 JavaScript 代码段，帮助在 CSDN 博客页面上获得更简洁且格式良好的 PDF 打印体验。代码会移除广告、侧边栏和评论区等不必要的元素，调整页面布局，并确保代码块中的长行在打印时正确换行，避免生成的 PDF 中文本被截断的问题。
 
 ---
 
