@@ -1,5 +1,10 @@
 # CSDN-Clean-Print-PDF
- 
+
+使用方法：F12打开检查，选择console控制台，粘贴代码
+<img width="1440" alt="截屏2024-11-01 12 24 21" src="https://github.com/user-attachments/assets/08e39cd8-569d-4120-b9ab-3940a55f3e9d">
+
+ <img width="1440" alt="截屏2024-11-01 12 23 23" src="https://github.com/user-attachments/assets/e69b9561-b13d-45b1-95db-30e114d0cc0d">
+
  
 **Description**:  
 This repository provides a JavaScript snippet for a cleaner and well-formatted PDF printing experience on CSDN blog pages. It removes unnecessary elements such as ads, sidebars, and comment sections, adjusts page layout, and ensures long lines in code blocks wrap correctly when printed, preventing text cut-off issues in the generated PDF.
@@ -33,7 +38,6 @@ Simply copy the JavaScript snippet and paste it into the browser console when on
     $("main").css('display','content'); 
     $("main").css('float','left'); 
 
-    // 移除指定的类和ID
     $(".toolbox-list, .profile-img, .isdefault, .profile-name, .left-toolbox").remove();
     $("#is-like-img").remove();
 
@@ -46,8 +50,8 @@ Simply copy the JavaScript snippet and paste it into the browser console when on
         @media print {
             /* 将页面内容适应页面宽度 */
             body, main {
-                width: 100%;
-                max-width: 100%;
+                width: 90%;
+                max-width: 90%;
                 overflow: visible;
                 word-wrap: break-word; /* 强制长单词换行 */
                 white-space: normal;    /* 设置正常换行 */
